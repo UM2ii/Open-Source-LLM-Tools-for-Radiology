@@ -5,7 +5,7 @@ Before starting, ensure you have a JSON file of your training data formatted wit
 
 ## Installation Steps
 
-### Step 1: Setup Environment
+### Step 1: Setup
 - Download [Python 3.10](https://www.python.org/downloads/)
 - Download [Anaconda](https://www.anaconda.com/download)
 - Download [Git](https://github.com/git-guides/install-git)
