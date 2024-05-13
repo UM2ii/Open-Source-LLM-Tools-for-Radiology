@@ -112,7 +112,7 @@ data_list = create_openai_chat_formatted_jsonl_file(df_main, jsonl_file_path)
 # Create OpenAI API formatted json file from your dataset
 create_openai_chat_formatted_json_file(data_list, json_file_path)
 
-# Load the tokenizer of the model whose chat template you want to apply.
+# Load the tokenizer of the model whose chat template you want to apply
 tokenizer = AutoTokenizer.from_pretrained("mistralai/Mistral-7B-Instruct-v0.2")
 
 # Load, transform, and save the chat template applied data
