@@ -19,7 +19,7 @@ git clone https://github.com/oobabooga/text-generation-webui.git
 
 ### Step 2: Open Text Generation Web UI and download a model
 - To open Text Generation Web UI, run the one of the `start_linux.sh`, `start_windows.bat`, `start_macos.sh`, or `start_wsl.bat` files.
-- This will print "Running on local URL: ..." followed by a URL. Copy this URL into your webrowser to utilize the web user interface.
+- This will print "Running on local URL: ..." followed by a URL. Copy this URL into your web browser to utilize the web user interface.
 - 
 
 
