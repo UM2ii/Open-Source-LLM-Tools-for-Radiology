@@ -20,6 +20,12 @@ git clone https://github.com/oobabooga/text-generation-webui.git
 ### Step 2: Open Text Generation Web UI and download a model
 - To open Text Generation Web UI, run the one of the `start_linux.sh`, `start_windows.bat`, `start_macos.sh`, or `start_wsl.bat` files.
 - This will print "Running on local URL: ..." followed by a URL. Copy this URL into your web browser to utilize the web user interface.
-- 
+- In the 'model' tab, copy and paste the Hugging Face model location (e.g. mistralai/Mistral-7B-Instruct-v0.2) into the download bar. Alternatively, models can be added directly by placing the model into the 'models' folder of text-generation-webui
+- Load your model with the appropriate loader per [loader doc](https://github.com/oobabooga/text-generation-webui/blob/main/docs/04%20-%20Model%20Tab.md)
+
+### Step 3: Set instruction template, hyperparameters, and chat mode
+- Navigate to the ‘Parameters’ tab and select the appropriate instruction template. This information can be found in the ‘config.json’ file within your downloaded model folder, under ‘model_type’
+- Adjust the parameters as necessary for your use case. For example, to make responses near-deterministic, change ‘seed’ from random (i.e -1) to any integer and ‘temperature’ to 0.01
+
 
 
