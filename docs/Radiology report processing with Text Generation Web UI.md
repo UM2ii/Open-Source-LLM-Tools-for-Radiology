@@ -25,7 +25,8 @@ git clone https://github.com/oobabooga/text-generation-webui.git
 
 ### Step 3: Set instruction template, hyperparameters, and chat mode
 - Navigate to the ‘Parameters’ tab and select the appropriate instruction template. This information can be found in the ‘config.json’ file within your downloaded model folder, under ‘model_type’
-- Adjust the parameters as necessary for your use case. For example, to make responses near-deterministic, change ‘seed’ from random (i.e -1) to any integer and ‘temperature’ to 0.01
-
+- Adjust the parameters as necessary for your use case. For example, to make responses near-deterministic, change ‘seed’ from random (i.e -1) to any other integer and ‘temperature’ to 0.01
+- For more detailed information on hyperparameters, see [hyperparamaters doc](https://github.com/oobabooga/text-generation-webui/blob/main/docs/04%20-%20Model%20Tab.md)
+### Step 3: Set instruction
 
 
