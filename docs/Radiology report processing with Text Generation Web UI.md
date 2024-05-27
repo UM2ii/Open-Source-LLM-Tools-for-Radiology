@@ -23,7 +23,7 @@ git clone https://github.com/oobabooga/text-generation-webui.git
 - In the 'model' tab, copy and paste the Hugging Face model location (e.g. mistralai/Mistral-7B-Instruct-v0.2) into the download bar. Alternatively, models can be added directly by placing the model into the 'models' folder of text-generation-webui
 - Load your model with the appropriate loader per [loader doc](https://github.com/oobabooga/text-generation-webui/blob/main/docs/04%20-%20Model%20Tab.md)
 
-### Step 3: Set instruction template, and hyperparameters
+### Step 3: Set instruction template and hyperparameters
 - Navigate to the ‘Parameters’ tab and select the appropriate instruction template. This information can be found in the ‘config.json’ file within your downloaded model folder, under ‘model_type’
 - Adjust the parameters as necessary for your use case. For example, to make responses near-deterministic, change ‘seed’ from random (i.e -1) to any other integer and ‘temperature’ to 0.01
 - For more detailed information on hyperparameters, see [hyperparamaters doc](https://github.com/oobabooga/text-generation-webui/blob/main/docs/03%20-%20Parameters%20Tab.md)
