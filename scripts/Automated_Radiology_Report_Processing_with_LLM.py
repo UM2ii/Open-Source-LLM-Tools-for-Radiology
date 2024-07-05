@@ -19,7 +19,6 @@ headers = {
     "Content-Type": "application/json; charset=utf-8"
 }
 assistant_message_list = []
-assistant_message_list_clean = []
 
 # Specify model name, instruction template, and chat template names. Using ‘None’ will make ooba try to find it from the config.json file with the model
 model_name = 'mistralai_Mistral-7B-Instruct-v0.2'
