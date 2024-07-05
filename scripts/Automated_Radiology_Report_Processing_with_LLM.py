@@ -47,7 +47,7 @@ seed for text-generation-webui.
 - Further information for each hyperparameter can be found in the Parameters Tab of the docs folder.
 """
 for report, report_id in zip(radiology_report_list, report_id_list):
-    user_message = ("Does the following radiology report state that cirrhosis is present? Radiology Report Text: ") + report
+    user_message = ("Classify if the following radiology report indicated the presence of cirrhosis: ") + report
     data = {
         "mode": "instruct",
         "messages": [{"role": "user", "content": user_message}],
