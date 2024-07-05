@@ -16,7 +16,7 @@ radiology_report_list = df_main['radiology_reports'].dropna().apply(lambda x: x.
 # Set up API
 model_url = "http://127.0.0.1:5000/v1/chat/completions"
 headers = {
-    "Content-Type": "application/json; charset=utf-8" # 4.17.2024 You changed to include charset. delete that and the ; if it stops working
+    "Content-Type": "application/json; charset=utf-8"
 }
 assistant_message_list = []
 assistant_message_list_clean = []
