@@ -1,9 +1,8 @@
-# Open-Source-LLM-Tools-for-Radiology (In progress)
+# Open-Source-LLM-Tools-for-Radiology
 
 This repository contains guides and tools for those interested in learning more about open-source LLMs and implementing them in their clinical or research workflows, with a focus on radiology. However, the provided scripts can be applied to any field (Medicine, business, law) where training LLMs or using them to process a large number of items from a dataset is desired.
 
-
-Guides for finetuning LLMs and automated processing of items from a dataset are provided in [docs](/docs). Relevant code for these guides is provided in [scripts](/scripts).
+Guides for finetuning LLMs and automated processing of items from a dataset are provided in [docs](/docs). Relevant code for these guides is provided in [scripts](/scripts). A comprehensive list of current open-source LLMs and their characteristics can be found [here](https://github.com/eugeneyan/open-llms).
 
 ## License
 
